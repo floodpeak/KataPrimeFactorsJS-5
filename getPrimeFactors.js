@@ -1,8 +1,5 @@
 module.exports = function(number){
-  if(number === 3){
-    return [number]
-  }
-  if(number === 2){
+  if(number === 2 || number === 3){
     return [number]
   }
   return []
