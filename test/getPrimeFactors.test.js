@@ -1,7 +1,7 @@
 var expect = require('chai').expect
 
 describe('prime factors', function(){
-  it('should be true for true',function(){
-    expect(true).to.be.true
+  it('should be [] for 1',function(){
+    expect(getPrimeFactors(1)).to.be.eql([])
   })
 })
